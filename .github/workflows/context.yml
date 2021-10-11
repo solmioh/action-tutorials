@@ -8,8 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-
       - name: "context"
         env:
           COMMIT_ID: ${{ github.sha }}
